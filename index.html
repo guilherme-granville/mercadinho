@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mercado</title>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <header class="header">
+        <a href="#" class="logo"> SuperMercado Max Preço </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#inicio" style="--i:0;">Ínicio</a>
+            <a href="#produtos" style="--i:1;">Produtos</a>
+            <a href="#login" style="--i:2;">Login</a>
+            <a href="https://maps.app.goo.gl/Jq9RdMvrCTKwh3JY6" target="_blank" style="--i:3;">Localização</a>
+            <!-- navbar -->
+
+
+        </nav>
+    </header>
+
+
+<section id="setores" class="setores">
+    <h2>Setores do Mercado</h2>
+    <div class="setores-container">
+        <!-- Setor 1 -->
+        <div class="setor" id="setor1">
+            <a href="#" onclick="mostrarProdutos('setor1')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+1" alt="Setor 1">
+                <h3>Setor 1</h3>
+            </a>
+        </div>
+        <!-- Setor 2 -->
+        <div class="setor" id="setor2">
+            <a href="#" onclick="mostrarProdutos('setor2')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+2" alt="Setor 2">
+                <h3>Setor 2</h3>
+            </a>
+        </div>
+        <!-- Setor 3 -->
+        <div class="setor" id="setor3">
+            <a href="#" onclick="mostrarProdutos('setor3')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+3" alt="Setor 3">
+                <h3>Setor 3</h3>
+            </a>
+        </div>
+        <!-- Setor 4 -->
+        <div class="setor" id="setor4">
+            <a href="#" onclick="mostrarProdutos('setor4')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+4" alt="Setor 4">
+                <h3>Setor 4</h3>
+            </a>
+        </div>
+        <!-- Setor 5 -->
+        <div class="setor" id="setor5">
+            <a href="#" onclick="mostrarProdutos('setor5')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+5" alt="Setor 5">
+                <h3>Setor 5</h3>
+            </a>
+        </div>
+        <!-- Setor 6 -->
+        <div class="setor" id="setor6">
+            <a href="#" onclick="mostrarProdutos('setor6')">
+                <img src="https://via.placeholder.com/300x200?text=Setor+6" alt="Setor 6">
+                <h3>Setor 6</h3>
+            </a>
+        </div>
+    </div>
+
+    <div id="produtos" class="produtos">
+        <!-- Os produtos aparecerão aqui ao clicar nos setores -->
+    </div>
+</section>
+
+
+
+<script src="./assets/Js/setor.js"></script>
+
+</body>
+</html>
